@@ -38,9 +38,11 @@ public class MainActivity extends AppCompatActivity {
         btnsaludo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (txtNombre.getText().toString().trim().isEmpty())
-                    Toast.makeText(MainActivity.this, "Escribe", Toast.LENGTH_SHORT).show();
+                if (txtNombre.getText().toString().trim().isEmpty()){
+                    Toast.makeText(MainActivity.this, "Escribe algo", Toast.LENGTH_SHORT).show();
             }
+            else{l}
+
         });
 
     }
